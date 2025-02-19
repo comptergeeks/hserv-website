@@ -106,7 +106,7 @@ export default function Page() {
           playsInline
           className="absolute inset-0 min-h-full min-w-full object-cover opacity-60"
         >
-          <source src="/looping-bear.mp4" type="video/mp4" />
+          <source src="/pregnancy-loop.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -263,50 +263,140 @@ export default function Page() {
           <h2
             className={`text-4xl font-bold text-black mb-8 ${dmsans.className}`}
           >
-            The Impact of Early Life Stress
+            Well Being in First Years of Life
           </h2>
 
           <div className="prose max-w-none">
             <p className={`text-lg text-gray-700 mb-8 ${dmsans.className}`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              While the term of a baby's growth between conception to pregnancy
+              is very important, there are also clearly other factors within the
+              first years of life that make the biggest difference on how
+              children's lives can shape out. Generally, the first 1000 days of
+              a child's life are when 80% of their cognitive brain is developed.
+              Thus, it is proven that everything you pick up and learn at this
+              stage of life is extremely important.
             </p>
 
-            <div className="bg-gray-50 p-6 rounded-lg mb-8">
-              <h1>Stress Levels Over Time</h1>
-              <p>Measured in relative stress units (RSU)</p>
-              <LineChart
-                className="mt-6"
-                data={chartdata}
-                index="year"
-                categories={["Stress Level"]}
-                colors={["blue"]}
-                yAxisWidth={40}
-                height="h-80"
+            <p
+              className={`text-center text-xl font-bold italic mb-8  text-black ${dmsans.className}`}
+            >
+              "It is easier to build strong children than to repair broken men."
+              <br />- Frederick Douglass (1817–1895)
+            </p>
+
+            <div className="pt-6 rounded-lg mb-8">
+              <div className=" mb-3">
+                <h3
+                  className={`text-2xl font-semibold mb-2 ${dmsans.className}`}
+                >
+                  <span className="text-gray-900">
+                    Have you had an adverse child experience?{" "}
+                  </span>
+                  <span className="text-red-400">
+                    How will we break this cycle?
+                  </span>
+                </h3>
+              </div>
+            </div>
+
+            <p className={`text-lg text-gray-700 mb-6 ${dmsans.className}`}>
+              Adverse child experiences are traumatic experiences that can
+              include, but aren't limited to, emotional or physical neglect,
+              violence or abuse, or substance abuse. Not all Adverse child
+              experiences were preventable by parents due to wealth
+              inequalities, unfair situations, or parental abuse, however of
+              course, some are!
+            </p>
+
+            <p className={`text-lg text-gray-700 mb-8 ${dmsans.className}`}>
+              Although genes and mothers' stress determines the blueprint for a
+              baby, the environment determines what outcome this holds.
+            </p>
+
+            <div className="flex flex-col items-center justify-center aspect-video rounded-lg mb-8 overflow-hidden">
+              <img
+                src="/imgs/adverse-experiences.png"
+                alt="Placeholder for child development illustration"
+                className="w-4/5 h-4/5 object-cover self-center rounded-lg"
               />
             </div>
 
             <p className={`text-lg text-gray-700 mb-8 ${dmsans.className}`}>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              In study, the correlation between having adverse child experiences
+              versus not, is very drastic. There are higher rates of smoking,
+              alcohol abuse, suicide attempt, marriage issues, and even job
+              problems (The Lifelong Effects of Adverse Childhood Experiences,
+              Felliti et al). The study concluded that in these events happening
+              during childhood, time does not heal. Instead, time alone can only
+              conceal and push unnecessary resilience.
             </p>
+
+            <div className="flex flex-col md:flex-row gap-6 mb-12">
+              <div className="flex-1 bg-gray-100 rounded-lg overflow-auto">
+                <img
+                  src="/imgs/adult-alcohol.png"
+                  alt="Graph 1"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="flex-1 bg-gray-100 rounded-lg overflow-auto">
+                <img
+                  src="/imgs/adult-smoking.png"
+                  alt="Graph 2"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
 
             <h3
-              className={`text-2xl font-bold text-black mb-4 ${dmsans.className}`}
+              className={`text-2xl font-bold text-black pr-3 pb-3 ${dmsans.className}`}
             >
-              Long-term Effects
+              How does this relate to{" "}
+              <span className="text-red-400"> YOU? </span>
             </h3>
 
-            <p className={`text-lg text-gray-700 mb-8 ${dmsans.className}`}>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
-            </p>
+            <div className="space-y-6">
+              <p className={`text-lg text-gray-700 ${dmsans.className}`}>
+                While you may not be planning on being a parent just yet, it's
+                good to be educated on what having a child means and how much
+                our lives make theirs. This, as well as learning to manage
+                stress, so as to not push it on to future children with these
+                habits learned today.
+              </p>
+
+              <p className={`text-lg text-gray-700 ${dmsans.className}`}>
+                Even if you never plan on having children, information such as
+                this can help you reflect on your own life. If you have had
+                adverse childhood experiences or even if you haven't and are
+                struggling, it can be noted to ask for help when you need it.
+                While there is not nearly enough support and equality to
+                eliminate this, if you attend the University of Washington, some
+                resources include:
+              </p>
+
+              <ul className="space-y-3 pl-6 list-disc">
+                <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                  Husky HelpLine: 206-616-7777 or online chat
+                </li>
+                <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                  LiveWell Confidential advocates
+                </li>
+                <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                  UW counseling center
+                </li>
+                <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                  Husky health
+                </li>
+              </ul>
+
+              <p className={`text-lg text-gray-700 ${dmsans.className}`}>
+                For the future, or maybe present for you, the child you have
+                needs to be loved and cared for regardless of who they turn out
+                to be. Children are a big responsibility, and although they may
+                nor remember the first years of their life, it will deeply
+                affect the rest of theirs.
+              </p>
+            </div>
           </div>
         </div>
       </motion.div>
