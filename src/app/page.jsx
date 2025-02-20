@@ -393,7 +393,7 @@ export default function Page() {
                 For the future, or maybe present for you, the child you have
                 needs to be loved and cared for regardless of who they turn out
                 to be. Children are a big responsibility, and although they may
-                nor remember the first years of their life, it will deeply
+                not remember the first years of their life, it will deeply
                 affect the rest of theirs.
               </p>
             </div>
@@ -528,6 +528,16 @@ export default function Page() {
                       trust as they grow.
                     </li>
                   </ul>
+                </div>
+                <div className="text-center mb-8">
+                  <a
+                    href="https://www.web-research-design.net/cgi-bin/crq/crq.pl"
+                    className={`text-lg text-blue-600 hover:text-blue-800 underline ${dmsans.className}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Here is a link to a quiz to determine your attachment style!
+                  </a>
                 </div>
               </div>
 
