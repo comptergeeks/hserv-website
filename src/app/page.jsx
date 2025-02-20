@@ -397,6 +397,174 @@ export default function Page() {
                 affect the rest of theirs.
               </p>
             </div>
+
+            <div className="mt-12">
+              <h2
+                className={`text-4xl font-bold text-black mb-8 ${dmsans.className}`}
+              >
+                How Early Life Stress Shapes Attachment and Relationships
+              </h2>
+
+              <div className="flex flex-col items-center justify-center aspect-video rounded-lg mb-8 overflow-hidden">
+                <img
+                  src="/imgs/baby_mom.png"
+                  alt="Early life stress and relationships illustration"
+                  className="w-4/5 h-4/5 object-cover self-center rounded-lg"
+                />
+              </div>
+
+              <p className={`text-lg text-gray-700 mb-8 ${dmsans.className}`}>
+                During the first few years of life, children move through
+                different
+                <span className="font-bold"> stages of attachment </span>
+                as they begin to recognize caregivers, seek comfort, and develop
+                trust in the world around them. When caregivers respond
+                consistently and lovingly, children form a
+                <span className="font-bold"> secure attachment</span>, feeling
+                safe to explore and connect with others. However, when a child
+                experiences neglect, unpredictability, or trauma, different
+                <span className="font-bold"> insecure attachment styles </span>
+                may emerge.
+              </p>
+
+              <h3
+                className={`text-2xl font-bold text-black pr-3 pb-3 ${dmsans.className}`}
+              >
+                Understanding Attachment Styles
+              </h3>
+
+              <div className="flex flex-col items-center justify-center aspect-video rounded-lg mb-8 overflow-hidden">
+                <img
+                  src="/imgs/attachment-styles.png"
+                  alt="Attachment styles illustration"
+                  className="w-4/5 h-4/5 object-cover self-center rounded-lg"
+                />
+              </div>
+
+              <div className="space-y-8 mb-8">
+                <div>
+                  <h4
+                    className={`text-xl font-bold text-black mb-3 ${dmsans.className}`}
+                  >
+                    1. Secure Attachment: A Strong Foundation
+                  </h4>
+                  <ul className="space-y-2 pl-6 list-disc">
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      Formed when caregivers are consistently responsive and
+                      loving.
+                    </li>
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      Children feel safe exploring the world, knowing they have
+                      a reliable source of comfort.
+                    </li>
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      As adults, they tend to build healthy, trusting
+                      relationships and manage emotions well.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4
+                    className={`text-xl font-bold text-black mb-3 ${dmsans.className}`}
+                  >
+                    2. Avoidant Attachment: Independence at a Cost
+                  </h4>
+                  <ul className="space-y-2 pl-6 list-disc">
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      Develops when caregivers are emotionally distant or
+                      dismissive of a child's needs.
+                    </li>
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      Children learn to rely on themselves, suppressing emotions
+                      rather than seeking comfort.
+                    </li>
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      This can lead to difficulty expressing feelings and
+                      forming close bonds later in life.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4
+                    className={`text-xl font-bold text-black mb-3 ${dmsans.className}`}
+                  >
+                    3. Anxious (Ambivalent) Attachment: Seeking Reassurance
+                  </h4>
+                  <ul className="space-y-2 pl-6 list-disc">
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      Stems from inconsistent caregiving—sometimes present,
+                      sometimes absent.
+                    </li>
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      Children may become overly clingy, fearing rejection and
+                      craving reassurance.
+                    </li>
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      As adults, they might struggle with self-doubt and anxiety
+                      in relationships.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4
+                    className={`text-xl font-bold text-black mb-3 ${dmsans.className}`}
+                  >
+                    4. Disorganized Attachment: Fear and Confusion
+                  </h4>
+                  <ul className="space-y-2 pl-6 list-disc">
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      Often linked to trauma, neglect, or caregivers who are
+                      both a source of comfort and fear.
+                    </li>
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      Children may show unpredictable behaviors, struggling to
+                      feel safe.
+                    </li>
+                    <li className={`text-lg text-gray-700 ${dmsans.className}`}>
+                      This can lead to challenges in emotional regulation and
+                      trust as they grow.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3
+                className={`text-2xl font-bold text-black pr-3 pb-3 ${dmsans.className}`}
+              >
+                Why It Matters
+              </h3>
+
+              <div className="space-y-6 mb-8">
+                <p className={`text-lg text-gray-700 ${dmsans.className}`}>
+                  Our first relationships shape how we navigate love, trust, and
+                  emotional resilience. By understanding attachment styles, we
+                  can recognize patterns, heal from early stress, and create
+                  stronger, more secure connections for ourselves and future
+                  generations. Attachment styles don't just affect childhood,
+                  they shape our
+                  <span className="font-bold">
+                    {" "}
+                    relationships, emotional health, and coping skills{" "}
+                  </span>
+                  throughout life. For those who have experienced adversity,
+                  understanding these patterns is the first step in healing and
+                  building more secure connections.
+                </p>
+
+                <p className={`text-lg text-gray-700 ${dmsans.className}`}>
+                  Even if you never plan on having children, this knowledge
+                  helps you reflect on your own experiences. If you have
+                  struggled with the effects of early life stress, know that
+                  <span className="font-bold"> healing is possible</span>.
+                  Seeking support, learning about attachment, and breaking
+                  unhealthy cycles can help create a better future, for yourself
+                  and those around you.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </motion.div>
